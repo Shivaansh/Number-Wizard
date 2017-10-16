@@ -6,7 +6,7 @@ public class NumberWizard : MonoBehaviour {
 	int max;
 	int min;
 	int guess = 1000;
-	int MaxGuessesAllowed = 12;
+	int MaxGuessesAllowed = 10;
 	public Text message;
 	public Text guessCount;
 	
@@ -20,7 +20,7 @@ public class NumberWizard : MonoBehaviour {
 	}
 	
 	void StartGame(){
-		max = 3000;
+		max = 1000;
 		min = 1;
 		max = max+1;
 		
